@@ -13,10 +13,15 @@ class Homepage extends StatelessWidget {
       body: Center(
         child: Container(
           child: Text(
-              "Welcome to Newvision$days $name Hope You will have great journey"),
+              "Welcome to Newvision$days $name Hope You will have great journey",
+          style: TextStyle(
+            fontWeight:FontWeight.bold,
+            fontSize: 20,
+          ),),
         ),
       ),
       drawer: Drawer(),
+
     );
   }
 }
